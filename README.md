@@ -33,6 +33,8 @@ Users should be able to:
 
 Working prototype from Figma.
 
+https://www.figma.com/proto/t6TJuYtXeJC1TDGuKOt3Sw/NFT-challenge?page-id=0%3A1&node-id=13%3A2&viewport=241%2C48%2C0.29&scaling=min-zoom&starting-point-node-id=13%3A2
+
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ft6TJuYtXeJC1TDGuKOt3Sw%2FNFT-challenge%3Fpage-id%3D0%253A1%26node-id%3D13%253A2%26viewport%3D241%252C48%252C0.29%26scaling%3Dmin-zoom%26starting-point-node-id%3D13%253A2" allowfullscreen></iframe>
 
 ![](./screenshot.jpg)
