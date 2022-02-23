@@ -29,6 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
+Working prototype from Figma.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ft6TJuYtXeJC1TDGuKOt3Sw%2FNFT-challenge%3Fpage-id%3D0%253A1%26node-id%3D13%253A2%26viewport%3D241%252C48%252C0.29%26scaling%3Dmin-zoom%26starting-point-node-id%3D13%253A2" allowfullscreen></iframe>
+
 ![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
