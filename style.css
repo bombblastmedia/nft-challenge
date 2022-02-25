@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #D5E1EF;
+    background-color: #0D1A2D;
     font-family: 'Outfit', 'Josefin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
     font-size: 100%;
@@ -24,31 +24,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     text-decoration: none;
 }
 
 .mob-card {
-    width: 318px;
-    height: 494px;
-    left: 28px;
-    top: 87px;
-    background: #FFFFFF;
-    box-shadow: 0px 22px 32px 2px rgba(0, 0, 0, 0.08);
-    border-radius: 25px;
+    width: 21.875em;
+    height: 37.375em;
+    background: #15273F;
+    border-radius: 1em;
 }
 
 img {
-    width: 279px;
-    height: 283px;
-    left: 47px;
-    top: 102px;
-    border-radius: 8px;
-    margin-top: 20px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    width: 19.125em;
+    height: 18.813em;
+    border-radius:  0.688em;
+    margin-top: 1.25em;
+    margin-left: 1.30em;
+    -webkit-border-radius: 0.688em;
+    -moz-border-radius: 0.688em;
+    -ms-border-radius: 0.688em;
+    -o-border-radius: 0.688em;
+    
 }
 
 .main-text {
@@ -56,8 +52,9 @@ img {
 }
 
 h1 {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 	1.3125rem;
+    font-weight: 900;
+    color: #E8EBEB;
 }
 
 h2 {
