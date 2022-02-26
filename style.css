@@ -17,8 +17,8 @@ body {
     height: 100%;
     background-color: #0D1A2D;
     font-family: 'Outfit', 'Josefin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000000;
-    font-size: 100%;
+    /* color: #000000; */
+    /* font-size: 100%; */
     line-height: 1.3;
     overflow-x: hidden;
     display: flex;
@@ -28,23 +28,26 @@ body {
 }
 
 .mob-card {
-    width: 21.875em;
-    height: 37.375em;
+    width: 21.875rem;
+    height: 37.375rem;
     background: #15273F;
-    border-radius: 1em;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 
 img {
     width: 19.125em;
     height: 18.813em;
-    border-radius:  0.688em;
+    border-radius: 11px;
     margin-top: 1.25em;
     margin-left: 1.30em;
-    -webkit-border-radius: 0.688em;
-    -moz-border-radius: 0.688em;
-    -ms-border-radius: 0.688em;
-    -o-border-radius: 0.688em;
-    
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
 }
 
 .main-text {
@@ -52,7 +55,7 @@ img {
 }
 
 h1 {
-    font-size: 	1.3125rem;
+    font-size: 1.3125rem;
     font-weight: 900;
     color: #E8EBEB;
 }
@@ -63,13 +66,32 @@ h2 {
     color: #a1a1a1;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
+.equilibrium-counter-icon {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 48%);
+.eq-svg {
+    width: 1em;
+    height: 1em;
+    margin: 1em .10em 0em 1.5em;
+}
+
+.equilibrium-counter-text {
+    color: #5ACFD2;
+}
+
+.icon-clock {
+    width: 1em;
+    height: 1em;
+    margin: 1em .4em 0em 6.81rem;
+}
+
+.clock-days {
+    color: #97A4B6;
+    width: 4.56rem;
+    height: 1.38rem;
 }
 
 footer {
@@ -79,3 +101,13 @@ footer {
     height: 50px;
     /* Height of the footer */
 }
+
+
+/* .attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 48%);
+  } */
