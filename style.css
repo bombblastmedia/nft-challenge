@@ -94,6 +94,34 @@ h2 {
     height: 1.38rem;
 }
 
+.image-avatar-container{
+  display: flex;
+}
+
+.image-avatar {
+  
+  width: 1.8rem;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  margin-right: 1em;
+  margin-top: 3em;
+}
+
+.image-avatar-text{
+  color: #97A4B6;
+  margin-top: 2.5em;
+
+
+}
+
+.persons-name {
+  color: #E6EBEB;
+  margin-top: 2.5em;
+
+
+}
+
 footer {
     position: absolute;
     bottom: 0;
