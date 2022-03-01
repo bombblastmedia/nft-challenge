@@ -28,8 +28,8 @@ body {
 }
 
 .mob-card {
-    width: 21.875rem;
-    height: 37.375rem;
+    width: 21.88rem;
+    height: 37.38rem;
     background: #15273F;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -39,8 +39,8 @@ body {
 }
 
 img {
-    width: 19.125em;
-    height: 18.813em;
+    width: 19.13em;
+    height: 18.81em;
     border-radius: 11px;
     margin-top: 1.25em;
     margin-left: 1.30em;
@@ -54,10 +54,14 @@ img {
     padding: 0px 26px 0px 26px;
 }
 
-h1 {
-    font-size: 1.3125rem;
+.title {
+    font-size: .7rem;
     font-weight: 900;
     color: #E8EBEB;
+}
+
+.title :hover {
+    color: #5ACFD2;
 }
 
 h2 {
@@ -92,34 +96,46 @@ h2 {
     color: #97A4B6;
     width: 4.56rem;
     height: 1.38rem;
+    position: relative;
 }
 
-.image-avatar-container{
-  display: flex;
+.clock-days::after {
+    content: ' ';
+    height: 1px;
+    width: 280px;
+    position: absolute;
+    background: rgba(90, 207, 210, .2);
+    left: -213px;
+    margin-top: 20px;
+}
+
+.image-avatar-container {
+    display: flex;
 }
 
 .image-avatar {
-  
-  width: 1.8rem;
-  height: auto;
-  border-radius: 50%;
-  border: 1px solid #FFFFFF;
-  margin-right: 1em;
-  margin-top: 3em;
+    width: 2rem;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-right: 1em;
+    margin-top: 3em;
+    margin-left: 1.5em;
 }
 
-.image-avatar-text{
-  color: #97A4B6;
-  margin-top: 2.5em;
-
-
+.image-avatar-text {
+    color: #97A4B6;
+    margin-top: 2.5em;
+    margin-right: 4px;
 }
 
 .persons-name {
-  color: #E6EBEB;
-  margin-top: 2.5em;
+    color: #E6EBEB;
+    margin-top: 2.5em;
+}
 
-
+.persons-name :hover {
+    color: #5ACFD2;
 }
 
 footer {
