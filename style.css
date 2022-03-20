@@ -38,6 +38,7 @@ body {
     -o-border-radius: 16px;
 }
 
+
 img {
     width: 19.13em;
     height: 18.81em;
@@ -48,6 +49,32 @@ img {
     -moz-border-radius: 11px;
     -ms-border-radius: 11px;
     -o-border-radius: 11px;
+    position: absolute;
+   /* z-index: 2;*/
+}
+
+
+
+
+.overlay {
+    width: 19.13em;
+    height: 18.81em;
+    border-radius: 11px;
+    margin-top: 1.25em;
+    margin-left: 1.3em;
+    position: relative;
+    padding-top: 35%;
+    padding-left: 35%;
+    background: rgba(90, 207, 210, .5)
+    
+   /* z-index: 1;*/
+    }
+    
+svg .overlay :hover {
+  opacity: 0;
+  
+    
+  
 }
 
 .main-text {
@@ -89,12 +116,12 @@ h2 {
 .icon-clock {
     width: 1em;
     height: 1em;
-    margin: 1em .4em 0em 6.81rem;
+    margin: 1em .4em 0em 6.89rem;
 }
 
 .clock-days {
     color: #97A4B6;
-    width: 4.56rem;
+    width: 4.90rem;
     height: 1.38rem;
     position: relative;
 }
@@ -118,6 +145,7 @@ h2 {
     height: auto;
     border-radius: 50%;
     border: 1px solid #FFFFFF;
+    display: flex;
     margin-right: 1em;
     margin-top: 3em;
     margin-left: 1.5em;
@@ -127,11 +155,13 @@ h2 {
     color: #97A4B6;
     margin-top: 2.5em;
     margin-right: 4px;
+    margin-left: 4.5em;
 }
 
 .persons-name {
     color: #E6EBEB;
     margin-top: 2.5em;
+    margin-left: .3em;
 }
 
 .persons-name :hover {
@@ -141,17 +171,23 @@ h2 {
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
     height: 50px;
+    margin-top: 80px;
+    
     /* Height of the footer */
 }
 
-
-/* .attribution { 
+.attribution { 
     font-size: 11px;
     text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-left: 2em;
+    
 }
 
 .attribution a {
     color: hsl(228, 45%, 48%);
-  } */
+    margin-right: 25px;
+  } 
