@@ -56,7 +56,7 @@ img {
 
 .title {
     font-size: .7rem;
-    font-weight: 900;
+    font-weight: 600;
     color: #E8EBEB;
 }
 
@@ -84,6 +84,7 @@ h2 {
 
 .equilibrium-counter-text {
     color: #5ACFD2;
+    font-weight: 300;
 }
 
 .icon-clock {
@@ -94,6 +95,7 @@ h2 {
 
 .clock-days {
     color: #97A4B6;
+    font-weight: 300;
     width: 4.56rem;
     height: 1.38rem;
     position: relative;
@@ -125,12 +127,14 @@ h2 {
 
 .image-avatar-text {
     color: #97A4B6;
+    font-weight: 300;
     margin-top: 2.5em;
     margin-right: 4px;
 }
 
 .persons-name {
     color: #E6EBEB;
+    font-weight: 300;
     margin-top: 2.5em;
 }
 
