@@ -37,10 +37,6 @@ body {
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
- 
-   
- 
-   
 
 img {
     width: 19.13em;
@@ -53,35 +49,24 @@ img {
     -ms-border-radius: 11px;
     -o-border-radius: 11px;
     position: absolute;
-   
 }
-
-
 
 .overlay {
-  width: 19.13em;
-  height: 18.81em;
-  border-radius: 11px;
-  margin-top: 1.25em;
-  margin-left: 1.3em;
-  position: relative;
-  padding-top: 35%;
-  padding-left: 35%;  
-  background: rgba(90, 207, 210, .5);
-  opacity: 0;
-  transition: 1s ease-in-out;
+    width: 19.13em;
+    height: 18.81em;
+    border-radius: 11px;
+    margin-top: 1.25em;
+    margin-left: 1.3em;
+    position: relative;
+    padding-top: 35%;
+    padding-left: 35%;
+    background: rgba(90, 207, 210, .5);
+    opacity: 0;
+    transition: 1s ease-in-out;
 }
-    
-    
-   
-    
-    
+
 .overlay:hover {
-  opacity: 1.0;
-  
-  
-    
-  
+    opacity: 1.0;
 }
 
 .main-text {
@@ -129,12 +114,9 @@ h2 {
 
 .clock-days {
     color: #97A4B6;
-
     font-weight: 300;
     width: 4.56rem;
-
     width: 4.90rem;
-
     height: 1.38rem;
     position: relative;
 }
@@ -189,20 +171,18 @@ footer {
     max-width: 100%;
     height: 50px;
     margin-top: 80px;
-    
     /* Height of the footer */
 }
 
-.attribution { 
+.attribution {
     font-size: 11px;
     text-align: center;
     color: white;
     padding-top: 25px;
     padding-left: 2em;
-    
 }
 
 .attribution a {
     color: hsl(228, 45%, 48%);
     margin-right: 25px;
-  } 
+}
