@@ -28,8 +28,8 @@ body {
 }
 
 .mob-card {
-    width: 21.875rem;
-    height: 37.375rem;
+    width: 21.88rem;
+    height: 37.38rem;
     background: #15273F;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -37,10 +37,14 @@ body {
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
+ 
+   
+ 
+   
 
 img {
-    width: 19.125em;
-    height: 18.813em;
+    width: 19.13em;
+    height: 18.81em;
     border-radius: 11px;
     margin-top: 1.25em;
     margin-left: 1.30em;
@@ -48,16 +52,50 @@ img {
     -moz-border-radius: 11px;
     -ms-border-radius: 11px;
     -o-border-radius: 11px;
+    position: absolute;
+   
+}
+
+
+
+.overlay {
+  width: 19.13em;
+  height: 18.81em;
+  border-radius: 11px;
+  margin-top: 1.25em;
+  margin-left: 1.3em;
+  position: relative;
+  padding-top: 35%;
+  padding-left: 35%;  
+  background: rgba(90, 207, 210, .5);
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+    
+    
+   
+    
+    
+.overlay:hover {
+  opacity: 1.0;
+  
+  
+    
+  
 }
 
 .main-text {
     padding: 0px 26px 0px 26px;
 }
 
-h1 {
-    font-size: 1.3125rem;
-    font-weight: 900;
+.title {
+    font-size: .7rem;
+    font-weight: 600;
     color: #E8EBEB;
+}
+
+.title :hover {
+    color: #5ACFD2;
 }
 
 h2 {
@@ -80,62 +118,91 @@ h2 {
 
 .equilibrium-counter-text {
     color: #5ACFD2;
+    font-weight: 300;
 }
 
 .icon-clock {
     width: 1em;
     height: 1em;
-    margin: 1em .4em 0em 6.81rem;
+    margin: 1em .4em 0em 6.89rem;
 }
 
 .clock-days {
     color: #97A4B6;
+
+    font-weight: 300;
     width: 4.56rem;
+
+    width: 4.90rem;
+
     height: 1.38rem;
+    position: relative;
 }
 
-.image-avatar-container{
-  display: flex;
+.clock-days::after {
+    content: ' ';
+    height: 1px;
+    width: 280px;
+    position: absolute;
+    background: rgba(90, 207, 210, .2);
+    left: -213px;
+    margin-top: 20px;
+}
+
+.image-avatar-container {
+    display: flex;
 }
 
 .image-avatar {
-  
-  width: 1.8rem;
-  height: auto;
-  border-radius: 50%;
-  border: 1px solid #FFFFFF;
-  margin-right: 1em;
-  margin-top: 3em;
+    width: 2rem;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    margin-right: 1em;
+    margin-top: 3em;
+    margin-left: 1.5em;
 }
 
-.image-avatar-text{
-  color: #97A4B6;
-  margin-top: 2.5em;
-
-
+.image-avatar-text {
+    color: #97A4B6;
+    font-weight: 300;
+    margin-top: 2.5em;
+    margin-right: 4px;
+    margin-left: 4.5em;
 }
 
 .persons-name {
-  color: #E6EBEB;
-  margin-top: 2.5em;
+    color: #E6EBEB;
+    font-weight: 300;
+    margin-top: 2.5em;
+    margin-left: .3em;
+}
 
-
+.persons-name :hover {
+    color: #5ACFD2;
 }
 
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
     height: 50px;
+    margin-top: 80px;
+    
     /* Height of the footer */
 }
 
-
-/* .attribution { 
+.attribution { 
     font-size: 11px;
     text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-left: 2em;
+    
 }
 
 .attribution a {
     color: hsl(228, 45%, 48%);
-  } */
+    margin-right: 25px;
+  } 
