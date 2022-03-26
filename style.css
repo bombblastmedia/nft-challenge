@@ -17,8 +17,6 @@ body {
     height: 100%;
     background-color: #0D1A2D;
     font-family: 'Outfit', 'Josefin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* color: #000000; */
-    /* font-size: 100%; */
     line-height: 1.3;
     overflow-x: hidden;
     display: flex;
@@ -42,7 +40,7 @@ img {
     width: 19.13em;
     height: 18.81em;
     border-radius: 11px;
-    margin-top: 1.25em;
+    margin-top: 1.30em;
     margin-left: 1.30em;
     -webkit-border-radius: 11px;
     -moz-border-radius: 11px;
@@ -55,7 +53,7 @@ img {
     width: 19.13em;
     height: 18.81em;
     border-radius: 11px;
-    margin-top: 1.25em;
+    margin-top: 1.30em;
     margin-left: 1.3em;
     position: relative;
     padding-top: 35%;
@@ -63,10 +61,15 @@ img {
     background: rgba(90, 207, 210, .5);
     opacity: 0;
     transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
 .overlay:hover {
     opacity: 1.0;
+    cursor: pointer;
 }
 
 .main-text {
@@ -77,16 +80,19 @@ img {
     font-size: .7rem;
     font-weight: 600;
     color: #E8EBEB;
+    margin-top: 2em;
 }
 
 .title :hover {
     color: #5ACFD2;
+    cursor: pointer;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #a1a1a1;
+    line-height: 1.5em;
 }
 
 .equilibrium-counter-icon {
@@ -98,18 +104,19 @@ h2 {
 .eq-svg {
     width: 1em;
     height: 1em;
-    margin: 1em .10em 0em 1.5em;
+    margin: .7em .10em 0em 1.5em;
 }
 
 .equilibrium-counter-text {
     color: #5ACFD2;
     font-weight: 300;
+    margin-top: -.3em;
 }
 
 .icon-clock {
     width: 1em;
     height: 1em;
-    margin: 1em .4em 0em 6.89rem;
+    margin: .7em .4em 0em 6.85rem;
 }
 
 .clock-days {
@@ -119,6 +126,7 @@ h2 {
     width: 4.90rem;
     height: 1.38rem;
     position: relative;
+    margin-top: -.3em;
 }
 
 .clock-days::after {
@@ -128,7 +136,7 @@ h2 {
     position: absolute;
     background: rgba(90, 207, 210, .2);
     left: -213px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .image-avatar-container {
@@ -142,14 +150,14 @@ h2 {
     border: 1px solid #FFFFFF;
     display: flex;
     margin-right: 1em;
-    margin-top: 3em;
+    margin-top: 1.8em;
     margin-left: 1.5em;
 }
 
 .image-avatar-text {
     color: #97A4B6;
     font-weight: 300;
-    margin-top: 2.5em;
+    margin-top: 1.1em;
     margin-right: 4px;
     margin-left: 4.5em;
 }
@@ -157,12 +165,13 @@ h2 {
 .persons-name {
     color: #E6EBEB;
     font-weight: 300;
-    margin-top: 2.5em;
+    margin-top: 1.1em;
     margin-left: .3em;
 }
 
 .persons-name :hover {
     color: #5ACFD2;
+    cursor: pointer;
 }
 
 footer {
