@@ -61,7 +61,7 @@ https://www.figma.com/proto/t6TJuYtXeJC1TDGuKOt3Sw/NFT-challenge?page-id=0%3A1&n
 
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
@@ -69,19 +69,36 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
+Using svg to make the graphics more responsive.
+
 ```html
-<h1>Some HTML code I'm proud of</h1>
+ <svg class="overlay" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
 ```
+Using css to creat a hover effect on a image.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.overlay {
+    width: 19.13em;
+    height: 18.81em;
+    border-radius: 11px;
+    margin-top: 1.30em;
+    margin-left: 1.3em;
+    position: relative;
+    padding-top: 35%;
+    padding-left: 35%;
+    background: rgba(90, 207, 210, .5);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
+
+.overlay:hover {
+    opacity: 1.0;
+    cursor: pointer;
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
