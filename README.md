@@ -45,7 +45,7 @@ https://www.figma.com/proto/t6TJuYtXeJC1TDGuKOt3Sw/NFT-challenge?page-id=0%3A1&n
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/nft-card-using-flexbox-and-css-animation-0o1Q4LF6MC#comment-642868fe0f35072202d29516
 - Live Site URL: https://nft-preview-card-bbm.netlify.app
 - how to fix a footer to the bottom of the page: https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14
 
